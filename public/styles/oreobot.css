@@ -1,0 +1,53 @@
+button {
+  display: block;
+  margin: 25px auto;
+  width: 236px;
+  height: 236px;
+  border: none;
+  background: url(/images/oreobot.png) no-repeat;
+  text-indent: -9999px;
+  border-radius: 10000px;
+}
+button.ready {
+  box-shadow: 0 0 10px 1px rgba(53, 200, 248, .7);
+  cursor: pointer;
+}
+button.ready:active {
+  box-shadow: inset 0 0 8px 3px rgba(250, 250, 250, .7);
+  background-position: 1px 1px;
+}
+
+h1 {
+  color: #323232;
+  text-align: center;
+  font-size: 3em;
+  font-family: sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.alert {
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
+  border: 1px solid;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1em;
+  font-family: sans-serif;
+}
+
+.alert-info {
+  border-color: #bbb;
+  background: #ccc;
+}
+.alert-success {
+  border-color: #84eb34;
+  background: #acf176;
+}
+.alert-error {
+  border-color: #f37e7e;
+  background: #fc9c9c;
+}

@@ -1,0 +1,17 @@
+{
+  "author": "Rob Tarr <rob@robtarr.net>",
+  "name": "oreobot",
+  "description": "Arduino powered Oreo delivery system.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robtarr/oreo.git"
+  },
+  "dependencies": {
+    "serialport": "*",
+    "colors": "*",
+    "kickstart": "*",
+    "socket.io": "*",
+    "requirejs": "*"
+  }
+}
