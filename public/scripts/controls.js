@@ -2,11 +2,13 @@ define(function() {
 
   var oreo = null;
   function Events() {
+
   }
 
   oreoConnect = function(cb) {
     $('#oreoConnection .alert').addClass('hide');
-    $('#oreoConnection .alert-info').removeClass('hide').html('Trying to connect to your Arduino…');
+    $('#oreoConnection .alert-info').removeClass('hide');
+    $('#oreoConnection .alert-info').html('Trying to connect to your Arduino…');
 
      require(['oreo'], function(o) {
       oreo = o;
@@ -19,24 +21,17 @@ define(function() {
   }
 
   deliverOreo = function() {
-    oreo.start($('#oreoPinValue').val(), 600);
+    oreo.start(13, 600);
   }
 
   Events.bind = function() {
-
-    $('#oreoConnect').click(function(e) {
-      e.preventDefault();
-      oreoConnect();
-    });
-
     $('#oreoDeliver').click(function(e) {
       e.preventDefault();
-      $('#oreoSecondStep .alert').addClass('hide');
       deliverOreo();
     });
-
-    oreoConnect();
   };
+  
+  oreoConnect();
 
   return Events;
 });

@@ -12,13 +12,15 @@
       Noduino.connect(function(err, board) {
         $('#oreoConnection .alert').addClass('hide');
         if (err) {
-          $('#oreoConnection .alert-error').removeClass('hide');
-        } else {
+          $('#oreoConnection .alert-error').removeClass('hide'); }
+        else {
           $('#oreoConnection .alert-success').removeClass('hide');
+          $('#oreoDeliver').addClass('ready')
           that.board = board;
         }
       });
     });
+
   };
 
   Oreo.stop = function(pin) {
@@ -27,6 +29,13 @@
 
   Oreo.start = function(pin, delay) {
     this.board.digitalWrite(pin, 255);
+    setTimeout(function() {
+      Oreo.stop(pin)
+    }, delay);
+  };
+
+  Oreo.reset = function(pin, delay) {
+    this.board.digitalWrite(pin, 100);
     setTimeout(function() {
       Oreo.stop(pin)
     }, delay);
