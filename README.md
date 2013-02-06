@@ -16,3 +16,5 @@ It's currently using Noduino, underneath a fluid instance of the website, connec
 ### This is only the beginning...
 
 ![Oreobot](https://raw.github.com/robtarr/oreobot/master/extras/oreobot.jpg)
+
+ [See it in action](http://vine.co/v/bnnAt3v9HX5)
