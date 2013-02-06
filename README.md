@@ -18,3 +18,8 @@ It's currently using Noduino, underneath a fluid instance of the website, connec
 ![Oreobot](https://raw.github.com/robtarr/oreobot/master/extras/oreobot.jpg)
 
  [See it in action](http://vine.co/v/bnnAt3v9HX5)
+
+### Thanks
+- My Dad for helping with the hardware.
+- Hipster Branding for the logo
+- The guys at Sparkbox for the brainstorming
