@@ -14,3 +14,5 @@ It's currently using Noduino, underneath a fluid instance of the website, connec
 3. Eat your Oreos
 
 ### This is only the beginning...
+
+![Oreobot](https://raw.github.com/robtarr/oreobot/master/extras/oreobot.jpg)

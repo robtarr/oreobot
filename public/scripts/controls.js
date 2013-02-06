@@ -21,7 +21,7 @@ define(function() {
   }
 
   deliverOreo = function() {
-    oreo.start(13, 400);
+    oreo.start(13, 200);
   }
 
   Events.bind = function() {
