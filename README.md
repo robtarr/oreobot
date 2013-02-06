@@ -8,4 +8,9 @@ After much talk, and a lot of crazy ideas - this is the current iteration of my 
 It's currently using Noduino, underneath a fluid instance of the website, connected to my OreoBot to deliver Oreos while I work.
 
 
+## Make it work
+1. Build an Arduino powered Oreo robot
+2. $ node srv.web.js
+3. Eat your Oreos
+
 ### This is only the beginning...
