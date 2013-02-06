@@ -1,3 +1,8 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
 button {
   display: block;
   margin: 25px auto;
@@ -50,4 +55,16 @@ h1 {
 .alert-error {
   border-color: #f37e7e;
   background: #fc9c9c;
+}
+
+footer {
+  background: #222;
+  color: #ddd;
+  font-size: 0.8em;
+  padding: 0.1em 1em;
+  margin-top: 3em;
+}
+
+footer a {
+  color: #ccc;
 }
